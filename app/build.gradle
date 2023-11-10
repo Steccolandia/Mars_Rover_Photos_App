@@ -101,6 +101,10 @@ dependencies {
     //coil
     implementation("io.coil-kt:coil-compose:$coilVersion")
 
+    //Room
+    kapt "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.room:room-ktx:$roomVersion"
+
 }
 
 kapt {
